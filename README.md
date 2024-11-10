@@ -1,6 +1,6 @@
 # Ktayl-Consult Subscription Management Platform
+![image](https://github.com/user-attachments/assets/03515906-42dc-47b2-86b5-986fb0921d10)
 
-https://prod-files-secure.s3.us-west-2.amazonaws.com/77833865-5bb2-4ae0-8ccd-52ea26fa4e29/6623bc05-2b58-48e9-b968-4620052715ae/image.png
 
 ## Introduction
 
