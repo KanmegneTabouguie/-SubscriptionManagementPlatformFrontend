@@ -41,7 +41,7 @@ Check out our detailed step-by-step guide on how to manage your subscriptions an
 1. **Clone the repository:**
     
     ```bash
-    git clone <https://github.com/yourusername/ktayl-consult-subscription.git>
+    git clone (https://github.com/KanmegneTabouguie/-SubscriptionManagementPlatformFrontend.git)
     
     ```
     
@@ -53,22 +53,14 @@ Check out our detailed step-by-step guide on how to manage your subscriptions an
     
     ```
     
-3. **Set up environment variables:**
-Create a `.env` file and add the following:
     
-    ```bash
-    STRIPE_SECRET_KEY=your_stripe_secret_key
-    JWT_SECRET=your_jwt_secret
-    
-    ```
-    
-4. **Start the server:**
+3. **Start the server:**
     
     ```bash
     npm start
     
     ```
-    
+4.Need to start the backend and use https protocole which is requirement in the backend for interaction with stripe    
 5. **Open the project in your browser:**
 Go to `http://localhost:3000` to view the app.
 
