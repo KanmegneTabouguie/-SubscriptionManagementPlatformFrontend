@@ -1,0 +1,62 @@
+/* Styles for the UserRegistration Component */
+
+/* Background color for the container */
+.registration-container {
+    background-color: #f5f7fa;  /* Light gray background color */
+    padding: 50px 0;  /* Padding to add space at the top and bottom */
+    height: 100vh;
+}
+
+/* Larger and more spacious card */
+.card {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Logo Text Styling */
+.logo-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+/* Styling for headings */
+h2 {
+    font-size: 28px;
+    color: #2C3E50;
+}
+
+/* Custom Button Styling */
+.btn-primary {
+    background-color: #3498DB;
+    border: none;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980B9;  /* Darker blue on hover */
+}
+/* Success and Error Alert Styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}

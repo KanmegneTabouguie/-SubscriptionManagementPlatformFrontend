@@ -1,0 +1,31 @@
+.subscription-card {
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+.subscription-card:hover {
+    transform: translateY(-5px);
+}
+
+.button-group {
+    gap: 10px;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.text-center {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,123 @@
+/* Subscription Plans Styles */
+
+.subscription-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .logo h2 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.logout-button {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    color: #ff4d4d;
+}
+
+/* Main Content */
+.subscription-container {
+    background-color: #f7f7f9;
+    padding: 100px 30px 100px; /* Top padding increased to 150px */
+    margin-top: 50px; /* Prevent content from going under the fixed header */
+    margin-bottom: 80px; /* Prevent content from going under the footer */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.promo-code-input .form-label {
+    font-weight: bold;
+    color: #555;
+    font-size: 18px;
+}
+
+.promo-code-input input {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.subscription-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subscription-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-card .card-title {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subscription-card .card-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.subscription-card .btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: auto; /* Ensure the footer sticks to the bottom of the page */
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #bbb;
+}
