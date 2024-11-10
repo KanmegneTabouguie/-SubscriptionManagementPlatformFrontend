@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Ktayl-Consult Subscription Management Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/77833865-5bb2-4ae0-8ccd-52ea26fa4e29/6623bc05-2b58-48e9-b968-4620052715ae/image.png)
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Ktayl-Consult is a comprehensive subscription management platform designed to make it easy for businesses and individuals to manage their subscriptions, payment history, and billing information. This platform integrates with **Stripe** to provide secure payment handling and offers a user-friendly interface for tracking subscriptions.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Registration & Login:** Create an account or log in to manage your subscription.
+- **Subscription Plans:** Choose from multiple subscription plans with different pricing tiers.
+- **Promo Code Support:** Enter promotional codes for discounts when subscribing to plans.
+- **Manage Subscriptions:** View and manage your active subscriptions. Options include canceling, pausing, resuming, upgrading, or downgrading your plan.
+- **View Payment History:** Track and download your invoices.
+- **Secure Payments with Stripe:** All payments are securely processed through Stripe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use the Platform
 
-### `npm test`
+- **Register:** Sign up with your email and password.
+- **Log in:** Access your account to view and manage subscriptions.
+- **Subscribe to Plans:** Choose the plan that fits your needs, and enter any available promo codes.
+- **Manage Your Subscriptions:** View, pause, or upgrade your subscription plans in the **My Subscriptions** section.
+- **View Payment History:** Track all your payments, and download invoices from the **Payment History** section.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo & Step-by-Step Guide
 
-### `npm run build`
+Check out our detailed step-by-step guide on how to manage your subscriptions and payment history:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 [Step-by-Step Guide to Managing Your Subscription and Payment History](https://scribehow.com/shared/Managing_Your_Subscription_and_Payment_History__NDtupWUuTUumwsHWMxzx_Q)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React.js, Bootstrap for UI styling.
+- **Backend:** Node.js, Express.js, Stripe API for payment processing.
+- **Database:** Postgress.
+- **Deployment:** Ngrok for secure tunneling during local development.
 
-### `npm run eject`
+## How to Run the Project Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository:**
+    
+    ```bash
+    git clone <https://github.com/yourusername/ktayl-consult-subscription.git>
+    
+    ```
+    
+2. **Install dependencies:**
+    
+    ```bash
+    cd ktayl-consult-subscription
+    npm install
+    
+    ```
+    
+3. **Set up environment variables:**
+Create a `.env` file and add the following:
+    
+    ```bash
+    STRIPE_SECRET_KEY=your_stripe_secret_key
+    JWT_SECRET=your_jwt_secret
+    
+    ```
+    
+4. **Start the server:**
+    
+    ```bash
+    npm start
+    
+    ```
+    
+5. **Open the project in your browser:**
+Go to `http://localhost:3000` to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find a bug or want to suggest an improvement, feel free to open an issue or submit a pull request.
